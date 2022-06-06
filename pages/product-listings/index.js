@@ -64,7 +64,7 @@ export default function Listings() {
                         <path d="M2.03718 7.70711C1.64666 8.09763 1.0135 8.09763 0.622971 7.70711C0.232447 7.31658 0.232447 6.68342 0.622971 6.29289L2.03718 7.70711ZM6.33008 2L5.62297 1.29289L6.33008 0.585786L7.03718 1.29289L6.33008 2ZM12.0372 6.29289C12.4277 6.68342 12.4277 7.31658 12.0372 7.70711C11.6467 8.09763 11.0135 8.09763 10.623 7.70711L12.0372 6.29289ZM0.622971 6.29289L5.62297 1.29289L7.03718 2.70711L2.03718 7.70711L0.622971 6.29289ZM7.03718 1.29289L12.0372 6.29289L10.623 7.70711L5.62297 2.70711L7.03718 1.29289Z" fill="#212629" />
                     </svg> Anytime</button>
                     <button className="flex justify-center items-center gap-2 border px-4 py-2 text-sm bg-offWhite2 text-black border-black rounded-full"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1H13V2.44L8.2 7.72V11.56L5.8 13V7.72L1 2.44V1Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M1 1H13V2.44L8.2 7.72V11.56L5.8 13V7.72L1 2.44V1Z" stroke="black" stroke-width="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>Filter</button>
                 </div>
             </div>
