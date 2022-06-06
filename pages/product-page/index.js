@@ -110,7 +110,7 @@ export default function Home() {
                             For more information, check the TED Talk with Elora Hardy about Sharma Springs . The Apple TV show HOME also features Sharma Springs.
                         </p>
                         <div className="h-[1.5px] bg-[#C4D1DB] w-full my-6"></div>
-                        <h3 className="text-2xl font-semibold">Where you'll sleep</h3>
+                        <h3 className="text-2xl font-semibold">Where you&apos;ll sleep</h3>
                         <div className="my-10 flex gap-x-5">
                             <div className="w-2/6 px-10 py-5 rounded-xl shadow-lg border-[#C4D1DB] bg-[#F7FCFF] border">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -325,11 +325,11 @@ export default function Home() {
                                         <div className="flex gap-x-1">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M9.18164 2.70952L12 2L14.0688 2.60094C16.1798 3.21416 18.4188 3.23569 20.5412 2.6632L23 2L20.7211 14.0537C20.4199 15.6466 19.487 17.0499 18.1346 17.944L12 22L5.86537 17.944C4.51304 17.0499 3.58007 15.6466 3.2789 14.0537L1 2L2.64999 2.51923C4.76768 3.18563 7.02874 3.25151 9.18164 2.70952Z" fill="url(#paint0_linear_159_1827)" />
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.9227 8.23294C17.0703 8.46637 17.0006 8.7752 16.7672 8.92273L10.0715 13.1545C9.60335 13.4503 8.98393 13.3094 8.68986 12.8402L7.07639 10.2656C6.92975 10.0316 7.00056 9.72303 7.23455 9.57639C7.46854 9.42975 7.7771 9.50056 7.92374 9.73455L9.53722 12.3091L16.2329 8.0774C16.4664 7.92987 16.7752 7.99951 16.9227 8.23294Z" fill="#F7FCFF" />
+                                                <path fillRule="evenodd" clipRule="evenodd" d="M16.9227 8.23294C17.0703 8.46637 17.0006 8.7752 16.7672 8.92273L10.0715 13.1545C9.60335 13.4503 8.98393 13.3094 8.68986 12.8402L7.07639 10.2656C6.92975 10.0316 7.00056 9.72303 7.23455 9.57639C7.46854 9.42975 7.7771 9.50056 7.92374 9.73455L9.53722 12.3091L16.2329 8.0774C16.4664 7.92987 16.7752 7.99951 16.9227 8.23294Z" fill="#F7FCFF" />
                                                 <defs>
                                                     <linearGradient id="paint0_linear_159_1827" x1="12" y1="2" x2="12" y2="22" gradientUnits="userSpaceOnUse">
-                                                        <stop stop-color="#3371E9" />
-                                                        <stop offset="1" stop-color="#3392E9" />
+                                                        <stop stopColor="#3371E9" />
+                                                        <stop offset="1" stopColor="#3392E9" />
                                                     </linearGradient>
                                                 </defs>
                                             </svg>
@@ -341,12 +341,12 @@ export default function Home() {
                                                 <circle cx="11.6794" cy="16.1179" r="7.32" fill="url(#paint1_linear_159_1823)" />
                                                 <defs>
                                                     <linearGradient id="paint0_linear_159_1823" x1="11.6794" y1="0.5625" x2="11.6794" y2="8.7975" gradientUnits="userSpaceOnUse">
-                                                        <stop stop-color="#3371E9" />
-                                                        <stop offset="1" stop-color="#3392E9" />
+                                                        <stop stopColor="#3371E9" />
+                                                        <stop offset="1" stopColor="#3392E9" />
                                                     </linearGradient>
                                                     <linearGradient id="paint1_linear_159_1823" x1="11.6794" y1="8.79785" x2="11.6794" y2="23.4379" gradientUnits="userSpaceOnUse">
-                                                        <stop stop-color="#3371E9" />
-                                                        <stop offset="1" stop-color="#3392E9" />
+                                                        <stop stopColor="#3371E9" />
+                                                        <stop offset="1" stopColor="#3392E9" />
                                                     </linearGradient>
                                                 </defs>
                                             </svg>

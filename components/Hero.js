@@ -62,7 +62,7 @@ function Hero(props) {
                     <img className="mx-auto" src="../hero.png" />
                     <div className="absolute top-24 text-center w-full">
                         <h1 className="heading-gradient">Let your curiosity do the booking</h1>
-                        <button className="mt-10 w-[13%] py-3 rounded-full text-2xl bg-black text-offWhite">Let's Go</button>
+                        <button className="mt-10 w-[13%] py-3 rounded-full text-2xl bg-black text-offWhite">Let&apos;s Go</button>
                     </div>
                 </div>
             </div>

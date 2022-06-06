@@ -42,7 +42,7 @@ function GuestSearchBar() {
                         </div>
                     </div>
                     <h3 className="text-greyTone2 py-4 border-t-2 border-t-gray-200">
-                        If you're lucky enough to have more than 2 pets with you, be sure to let your host know.
+                        If you&apos;re lucky enough to have more than 2 pets with you, be sure to let your host know.
                     </h3>
                 </div>
             </div>
