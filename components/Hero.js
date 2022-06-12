@@ -36,11 +36,11 @@ function Hero(props) {
                                     <h1 className="font-bold  text-xs">Travel dates</h1>
                                     <h3 className="text-offGray">Add dates</h3>
                                 </button>
-                                <div className="h-5/6 w-[1px] bg-black opacity-20"></div>
-                                <button className="rounded-full text-left cursor-pointer w-2/12 ">
+                                {/* <div className="h-5/6 w-[1px] bg-black opacity-20"></div> */}
+                                {/* <button className="rounded-full text-left cursor-pointer w-2/12 ">
                                     <h1 className="font-bold  text-xs">Services</h1>
                                     <h3 className="text-offGray">Selected services</h3>
-                                </button>
+                                </button> */}
                                 <div className="h-5/6 w-[1px] bg-black opacity-20"></div>
                                 <button className="rounded-full text-left cursor-pointer w-2/12">
                                     <h1 className="font-bold  text-xs">Guests</h1>
@@ -62,7 +62,9 @@ function Hero(props) {
                     <img className="mx-auto" src="../hero.png" />
                     <div className="absolute top-24 text-center w-full">
                         <h1 className="heading-gradient">Let your curiosity do the booking</h1>
-                        <button className="mt-10 w-[13%] py-3 rounded-full text-2xl bg-black text-offWhite">Let&apos;s Go</button>
+                        <button className="mt-10 w-[13%] py-3 rounded-full text-2xl bg-black text-offWhite">
+                            <a href="./product-listings">Let&apos;s Go</a>
+                        </button>
                     </div>
                 </div>
             </div>

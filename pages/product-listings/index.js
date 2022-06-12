@@ -4,16 +4,14 @@ import Footer from '../../components/Footer'
 import Link from 'next/link'
 import Card from '../../components/Listings/Card'
 export default function Listings() {
-    let totalCards = 100;
+    let totalCards = 10;
     const cards = [];
     for (let i = 1; i <= totalCards; i++) {
         cards.push(
-            <a href="../product-page" >
-                <Card id={i} i={i} key={i} />
-            </a>
-
+            <Card id={i} i={i} key={i} />
         );
-    } return (
+    }
+    return (
         <>
             <Head>
                 <title>Vivante</title>
@@ -27,7 +25,9 @@ export default function Listings() {
                     </Link>
                 </div>
                 <div className="w-80 flex justify-end gap-x-10 items-center">
-                    <button className="font-[600]">Become a Host</button>
+                    <Link href="/hosting">
+                        <button className="font-[600]">Become a Host</button>
+                    </Link>
                     <button>
                         <svg width="25" height="25" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M26.6662 2.6665H12.444V7.11095H14.2218V4.44428H26.6662C27.1996 4.44428 27.5551 4.79984 27.5551 5.33317V15.1109C27.5551 15.6443 27.1996 15.9998 26.6662 15.9998H15.1107V22.2221H10.3996L7.11068 24.7998V22.2221H4.44401C3.91068 22.2221 3.55512 21.8665 3.55512 21.3332V11.5554C3.55512 11.0221 3.91068 10.6665 4.44401 10.6665H15.9996V8.88873H4.44401C2.9329 8.88873 1.77734 10.0443 1.77734 11.5554V21.3332C1.77734 22.8443 2.9329 23.9998 4.44401 23.9998H5.3329V28.5332L10.9329 23.9998H16.8885V17.7776H26.6662C28.1773 17.7776 29.3329 16.6221 29.3329 15.1109V5.33317C29.3329 3.82206 28.1773 2.6665 26.6662 2.6665Z" fill="#212629" />
@@ -68,7 +68,7 @@ export default function Listings() {
                     </svg>Filter</button>
                 </div>
             </div>
-            <div className="grid gap-5 mt-20 lg:grid-cols-5 md:grid-cols-3 grid-cols-1 px-10">
+            <div className="grid gap-5 mt-20 lg:grid-cols-4 md:grid-cols-3 grid-cols-1 px-10">
                 {cards}
             </div>
             <Footer />

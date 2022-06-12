@@ -1,14 +1,61 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Navigation, Pagination } from "swiper";
 
 export default function Card({ i }) {
+
     return (
         <>
-            <div className="flex flex-col gap-3 justify-center h-80">
+            <div className="flex flex-col gap-3 justify-center h-96">
                 <div className="h-2/3 relative">
-                    <img className="rounded-xl h-full w-full shadow object-cover" loading="lazy" src={`https://source.unsplash.com/720x480/?mountains/?${i}`} />
-                    <button>
-                        <svg className="absolute hearts bottom-3 right-3" width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6 1C3.239 1 1 3.216 1 5.95C1 8.157 1.875 13.395 10.488 18.69C10.6423 18.7839 10.8194 18.8335 11 18.8335C11.1806 18.8335 11.3577 18.7839 11.512 18.69C20.125 13.395 21 8.157 21 5.95C21 3.216 18.761 1 16 1C13.239 1 11 4 11 4C11 4 8.761 1 6 1Z" fill="black" fillOpacity="0.37" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLineJoin="round" />
+                    <a href="../product-page" >
+
+                        <Swiper
+                            cssMode={true}
+                            navigation={true}
+                            pagination={{
+                                dynamicBullets: true,
+                            }}
+                            modules={[Navigation, Pagination]}
+                            className="rounded-xl "
+                        >
+                            <SwiperSlide className="relative">
+                                <div className="overlay absolute w-full h-full object-cover top-0 left-0"></div>
+                                <img className="h-full w-full shadow-lg object-cover" loading="lazy" src={`https://source.unsplash.com/720x480/?mountains/?${i}`} />
+                            </SwiperSlide>
+                            <SwiperSlide className="relative">
+                                <div className="overlay absolute w-full h-full object-cover top-0 left-0"></div>
+                                <img className=" h-full w-full shadow-lg object-cover" loading="lazy" src={`https://source.unsplash.com/720x480/?mountains/?${i * 3}`} />
+                            </SwiperSlide>
+                            <SwiperSlide className="relative">
+                                <div className="overlay absolute w-full h-full object-cover top-0 left-0"></div>
+                                <img className=" h-full w-full shadow-lg object-cover" loading="lazy" src={`https://source.unsplash.com/720x480/?mountains/?${i * 4}`} />
+                            </SwiperSlide>
+                            <SwiperSlide className="relative">
+                                <div className="overlay absolute w-full h-full object-cover top-0 left-0"></div>
+                                <img className=" h-full w-full shadow-lg object-cover" loading="lazy" src={`https://source.unsplash.com/720x480/?mountains/?${i * 5}`} />
+                            </SwiperSlide>
+                            <SwiperSlide className="relative">
+                                <div className="overlay absolute w-full h-full object-cover top-0 left-0"></div>
+                                <img className=" h-full w-full shadow-lg object-cover" loading="lazy" src={`https://source.unsplash.com/720x480/?mountains/?${i * 6}`} />
+                            </SwiperSlide>
+                            <SwiperSlide className="relative">
+                                <div className="overlay absolute w-full h-full object-cover top-0 left-0"></div>
+                                <img className=" h-full w-full shadow-lg object-cover" loading="lazy" src={`https://source.unsplash.com/720x480/?mountains/?${i * 8}`} />
+                            </SwiperSlide>
+                            <SwiperSlide className="relative">
+                                <div className="overlay absolute w-full h-full object-cover top-0 left-0"></div>
+                                <img className=" h-full w-full shadow-lg object-cover" loading="lazy" src={`https://source.unsplash.com/720x480/?mountains/?${i * 10}`} />
+                            </SwiperSlide>
+
+                        </Swiper>
+                    </a>
+                    <button className="z-20 absolute hearts top-3 right-3">
+                        <svg width="24" height="24" viewBox="0 0 24 24" className="hearts" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z" fill="black" fillOpacity="0.37" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                     </button>
                 </div>

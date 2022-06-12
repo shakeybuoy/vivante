@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^6.3.11",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-calendar": "^3.7.0",
     "react-dom": "18.1.0",
-    "react-rating-stars-component": "^2.2.0"
+    "react-photo-album": "^1.14.0",
+    "react-rating-stars-component": "^2.2.0",
+    "swiper": "^8.2.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
