@@ -55,7 +55,7 @@ export default function PropertyType() {
                         <div className="w-10/12 flex gap-y-4 flex-col justify-center items-center">
                             <div className="flex items-center w-4/6 justify-center">
                                 <button onClick={decPrice} className="border h-12 w-12 rounded-full text-xl font-semibold text-offGray border-offGray bg-offWhite">-</button>
-                                <input placeholder="₹00" value={value} onKeyPress={(event) => { if (!/[0-9]/.test(event.key)) { event.preventDefault(); } }} autocomplete="off" required onChange={changeHandle} className="border border-offGray rounded-xl w-2/3 mx-5 py-3 text-center text-5xl bg-transparent font-semibold" type="text" />
+                                <input placeholder="₹00" value={value} onKeyPress={(event) => { if (!/[0-9]/.test(event.key)) { event.preventDefault(); } }} autoComplete="off" required onChange={changeHandle} className="border border-offGray rounded-xl w-2/3 mx-5 py-3 text-center text-5xl bg-transparent font-semibold" type="text" />
                                 <button onClick={incPrice} className="border h-12 w-12 rounded-full text-xl font-semibold text-offGray border-offGray bg-offWhite">+</button>
                             </div>
                             <h3>per night</h3>

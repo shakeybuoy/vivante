@@ -67,7 +67,7 @@ export default function PropertyType() {
                                     return (
                                         <div key={index} className="container-ip">
                                             <input name="ckb" onClick={() => chkcontrol(index)} type="checkbox" id={item.value} />
-                                            <label className="text-sm" for={item.value}>{item.value}</label>
+                                            <label className="text-sm" htmlFor={item.value}>{item.value}</label>
                                         </div>
                                     )
                                 })}

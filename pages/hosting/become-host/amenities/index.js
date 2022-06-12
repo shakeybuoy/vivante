@@ -75,7 +75,7 @@ export default function PropertyType() {
                                     return (
                                         <div key={index} className="container-ip">
                                             <input onClick={() => { arr.push(index) }} type="checkbox" id={item.value} />
-                                            <label className="text-sm" for={item.value}>{item.value}</label>
+                                            <label className="text-sm" htmlFor={item.value}>{item.value}</label>
                                         </div>
                                     )
                                 })}
@@ -96,7 +96,7 @@ export default function PropertyType() {
                                     return (
                                         <div key={index} className="container-ip">
                                             <input type="checkbox" id={item.value} />
-                                            <label className="text-sm" for={item.value}>{item.value}</label>
+                                            <label className="text-sm" htmlFor={item.value}>{item.value}</label>
                                         </div>
                                     )
                                 })}
@@ -117,7 +117,7 @@ export default function PropertyType() {
                                     return (
                                         <div key={index} className="container-ip">
                                             <input type="checkbox" id={item.value} />
-                                            <label className="text-sm" for={item.value}>{item.value}</label>
+                                            <label className="text-sm" htmlFor={item.value}>{item.value}</label>
                                         </div>
                                     )
                                 })}

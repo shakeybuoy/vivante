@@ -5,7 +5,7 @@ function PersonalDesign() {
         <div className="px-24 my-40">
             <div>
                 <h1 className="text-black text-4xl font-medium">Personally designed trips</h1>
-                <p className="text-2xl mt-10">When you book an Vivante home, you're connected with a dedicated trip designer who's there to craft your five-star stay.</p>
+                <p className="text-2xl mt-10">When you book an Vivante home, you&apos;re connected with a dedicated trip designer who&apos;s there to craft your five-star stay.</p>
             </div>
             <div className="flex justify-center w-full">
                 <div className="mt-10 grid grid-cols-3 w-4/6 gap-x-5 gap-y-10">

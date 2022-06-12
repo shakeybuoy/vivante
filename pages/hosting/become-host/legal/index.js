@@ -35,15 +35,15 @@ export default function PropertyType() {
                         <div className="w-10/12 flex gap-y-4 flex-col justify-center ">
                             <h2 className="text-2xl font-semibold">Do you have any of these at your place?</h2>
                             <div className="flex items-center justify-between legal">
-                                <label for="security">Security Camera(s)</label>
+                                <label htmlFor="security">Security Camera(s)</label>
                                 <input type="checkbox" id="security" name="security" value="cams" />
                             </div>
                             <div className="flex items-center justify-between legal">
-                                <label for="weapons">Weapons</label>
+                                <label htmlFor="weapons">Weapons</label>
                                 <input type="checkbox" id="weapons" name="weapons" value="weapons" />
                             </div>
                             <div className="flex items-center justify-between legal">
-                                <label for="dangerous">Dangerous Animals</label>
+                                <label htmlFor="dangerous">Dangerous Animals</label>
                                 <input type="checkbox" id="dangerous" name="dangerous" value="dangerous-animal" />
                             </div>
                             <div className="mt-10 space-y-4">

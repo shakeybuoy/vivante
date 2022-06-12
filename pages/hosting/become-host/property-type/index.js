@@ -83,8 +83,7 @@ export default function PropertyType() {
                         }
                     }} className="flex gap-y-5 flex-col items-center justify-center my-24">
                         {button_Data.map((item, index) => (
-
-                            <button value={item.value} onClick={() => { setActiveButton(index) }}
+                            <button value={item.value} key={item.index} onClick={() => { setActiveButton(index) }}
                                 className={activeButton === index ? `w-7/12 border border-[#00000060] text-left bg-black text-white duration-200 flex flex-col px-5 rounded-2xl py-4`
                                     :
                                     `w-7/12 border border-[#00000060] text-left hover:bg-black hover:text-white duration-200 flex flex-col px-5 rounded-2xl py-4`} >

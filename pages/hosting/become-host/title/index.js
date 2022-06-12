@@ -25,7 +25,7 @@ export default function PropertyType() {
                             duration: 1
                         }
                     }} className="text-5xl font-medium capitalize">
-                        let's  give your place a name
+                        let&apos;s  give your place a name
                     </motion.h1>
                 </div>
                 <div className="w-2/4 bg-offWhite overflow-y-auto relative text-black min-h-screen ">
@@ -43,7 +43,7 @@ export default function PropertyType() {
                         <div className="w-8/12 flex gap-y-8 flex-col justify-center ">
                             <h1 className="font-semibold text-2xl">Create your title</h1>
                             <div>
-                                <textarea className="border bg-none text-black font-medium text-3xl border-offGray w-full p-5 min-h-full rounded-xl" maxlength={max} placeholder='Lovely 1- Bedroom condo with pool' onChange={e => setCount(e.target.value.length)} rows={3} ></textarea>
+                                <textarea className="border bg-none text-black font-medium text-3xl border-offGray w-full p-5 min-h-full rounded-xl" maxLength={max} placeholder='Lovely 1- Bedroom condo with pool' onChange={e => setCount(e.target.value.length)} rows={3} ></textarea>
                                 <h3 className="text-offGray font-semibold text-sm mt-4">{count}/{max}</h3>
                             </div>
                         </div>

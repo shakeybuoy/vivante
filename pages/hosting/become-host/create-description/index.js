@@ -43,7 +43,7 @@ export default function PropertyType() {
                         <div className="w-8/12 flex gap-y-8 flex-col justify-center ">
                             <h1 className="font-semibold text-2xl">Create your description</h1>
                             <div>
-                                <textarea className="border bg-none text-black text-xl border-offGray w-full p-5 min-h-full rounded-xl" maxlength={max} onChange={e => setCount(e.target.value.length)} name="desciption" rows={4} >
+                                <textarea className="border bg-none text-black text-xl border-offGray w-full p-5 min-h-full rounded-xl" maxLength={max} onChange={e => setCount(e.target.value.length)} name="desciption" rows={4} >
                                     Bring the whole family to this great place with lots of room for fun.
                                 </textarea>
                                 <h3 className="text-offGray font-semibold text-sm mt-4">{count}/{max}</h3>
