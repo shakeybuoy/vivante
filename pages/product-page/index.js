@@ -6,7 +6,7 @@ import ReactStars from "react-rating-stars-component";
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import PhotoAlbum from "react-photo-album";
-import photos from './photos'
+import photos from '../../components/photos'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
